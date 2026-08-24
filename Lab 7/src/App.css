@@ -1,0 +1,81 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3rem 2rem; /* Increased padding */
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem; /* More space below header */
+}
+
+.header-controls h1 {
+  margin: 0;
+}
+
+.theme-toggle {
+  background-color: var(--card-bg, #f3f4f6);
+  color: var(--text-color, #1f2937);
+  border: 1px solid var(--nav-border, #e5e7eb);
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.theme-toggle:hover {
+  background-color: var(--dropdown-hover, #e5e7eb);
+}
+
+.card {
+  padding: 3em 2em; /* More padding inside the card */
+  background-color: var(--card-bg, #f9f9f9);
+  color: var(--text-color, #1f2937);
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+  font-size: 2.5rem; /* Slightly larger text */
+  font-weight: bold;
+  margin-bottom: 2rem; /* More space above buttons */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* More space between buttons */
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  background-color: var(--primary-color, #2563eb);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.button-group button:hover {
+  background-color: var(--primary-hover, #1d4ed8);
+}
+
+.button-group button:active {
+  transform: scale(0.96);
+}
+
+.button-group button.reset-btn {
+  background-color: #ef4444; /* Red color for reset */
+}
+
+.button-group button.reset-btn:hover {
+  background-color: #dc2626;
+}
