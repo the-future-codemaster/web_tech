@@ -5,7 +5,7 @@ A full-stack web application demonstrating the integration of MongoDB, Express.j
 ## Project Structure
 
 ```text
-project_clean/
+Lab 10/
 ├── server/
 │   ├── index.mjs              # Main Express server connecting to MongoDB and routing API endpoints
 │   ├── package.json           # Backend dependencies and scripts
