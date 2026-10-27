@@ -1,0 +1,26 @@
+[
+  {
+    "id": "101",
+    "name": "Amrut Anand",
+    "branch": "AI&DS",
+    "year": "3rd",
+    "cgpa": "8.8",
+    "email": "amrut24110298@snuchennai.edu.in"
+  },
+  {
+    "id": "102",
+    "name": "Virat Kohli",
+    "branch": "God",
+    "year": "33rd",
+    "cgpa": "0.0",
+    "email": "viratkohli@india.com"
+  },
+  {
+    "id": "103",
+    "name": "Arjit",
+    "branch": "IT",
+    "year": "4th",
+    "cgpa": "7.9",
+    "email": "arjit@snuchennai.edu.in"
+  }
+]
